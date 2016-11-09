@@ -54,10 +54,11 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 
 *[Don't use RegEx]*
 
-###Example
+###Examples
 -
 
 **Input 1**: aabcccdee
+
 **Output 1**: bd
 
 ```
@@ -65,6 +66,7 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 ```
 <br/>
 **Input 2**: abcdeedcbfgf
+
 **Output 2**: afgf
 
 ```
@@ -75,6 +77,7 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 ```
 <br/>
 **Input 3**: abbabba
+
 **Output 3**: Empty String
 
 ```
