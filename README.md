@@ -43,6 +43,12 @@ The algorithm doesn't like consecutive characters in a given string to be same. 
 	Step3: a
 ```
 <br/>
+
+### Solutions
+-
+- [In Scala](https://github.com/codingkapoor/solve-for-x/blob/master/scala/src/main/scala/com/codingkapoor/P01.scala)
+
+<br/>
 ## The Big Bang Bomber Algorithm
 This algorithm is a variant of the bomber algorithm. It bombs all the consecutive characters which are similar in a single iteration.
 
@@ -74,3 +80,8 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 ```
 	Step1: aaa
 ```
+
+
+### Solutions
+-
+- [In Scala](https://github.com/codingkapoor/solve-for-x/blob/master/scala/src/main/scala/com/codingkapoor/P02.scala)
