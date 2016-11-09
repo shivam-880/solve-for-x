@@ -17,9 +17,9 @@ The algorithm doesn't like consecutive characters in a given string to be same. 
 
 **Output1**: bd
 ```
-Step1: bcccdee
-Step2: bdee
-Step3: bd
+	Step1: bcccdee
+	Step2: bdee
+	Step3: bd
 ```
 <br/>
 **Input2**: abcdeedcbfgf
@@ -27,10 +27,10 @@ Step3: bd
 **Output2**: afgf
 
 ```
-Step1: abcddcbfgf
-Step2: abccbfgf
-Step3: abbfgf
-Step4: afgf
+	Step1: abcddcbfgf
+	Step2: abccbfgf
+	Step3: abbfgf
+	Step4: afgf
 ```
 <br/>
 **Input3**: abbabba
@@ -38,9 +38,9 @@ Step4: afgf
 **Output3**: a
 
 ```
-Step1: aabba
-Step2: bba
-Step3: a
+	Step1: aabba
+	Step2: bba
+	Step3: a
 ```
 <br/>
 ## The Big Bang Bomber Algorithm
