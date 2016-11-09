@@ -13,18 +13,18 @@ The algorithm doesn't like consecutive characters in a given string to be same. 
 ###Examples
 -
 
-**Input1**: aabcccdee
+**Input 1**: aabcccdee
 
-**Output1**: bd
+**Output 1**: bd
 ```
 	Step1: bcccdee
 	Step2: bdee
 	Step3: bd
 ```
 <br/>
-**Input2**: abcdeedcbfgf
+**Input 2**: abcdeedcbfgf
 
-**Output2**: afgf
+**Output 2**: afgf
 
 ```
 	Step1: abcddcbfgf
@@ -33,9 +33,9 @@ The algorithm doesn't like consecutive characters in a given string to be same. 
 	Step4: afgf
 ```
 <br/>
-**Input3**: abbabba
+**Input 3**: abbabba
 
-**Output3**: a
+**Output 3**: a
 
 ```
 	Step1: aabba
@@ -57,15 +57,15 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 ###Example
 -
 
-**Input1**: aabcccdee
-**Output1**: bd
+**Input 1**: aabcccdee
+**Output 1**: bd
 
 ```
 	Step1: bd
 ```
 <br/>
-**Input2**: abcdeedcbfgf
-**Output2**: afgf
+**Input 2**: abcdeedcbfgf
+**Output 2**: afgf
 
 ```
 	Step1: abcddcbfgf
@@ -74,8 +74,8 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 	Step4: afgf
 ```
 <br/>
-**Input**: abbabba
-**Output**: Empty String
+**Input 3**: abbabba
+**Output 3**: Empty String
 
 ```
 	Step1: aaa
