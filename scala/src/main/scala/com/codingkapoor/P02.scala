@@ -40,7 +40,7 @@ object P02 {
       val ir = iteration(ls)
 
       if (ir.filter(_.length > 1).size == 0) ir.flatten mkString
-      else bomberR((ir.filter(_.length == 1).flatten mkString).toList)
+      else bomberR(ir.filter(_.length == 1).flatten)
     }
 
     bomberR(str.toList)
