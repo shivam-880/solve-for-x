@@ -1,4 +1,4 @@
-name := "solve-for-x"
+name := "problems"
 
 version := "1.0"
 

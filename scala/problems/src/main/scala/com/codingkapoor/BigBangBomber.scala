@@ -27,7 +27,7 @@ package com.codingkapoor
  *	Step2: 
  * 
  */
-object P02 {
+object BigBangBomber {
 
   def iteration(ls: List[Char]): List[List[Char]] = ls match {
     case Nil => Nil

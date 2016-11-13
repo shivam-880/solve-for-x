@@ -30,7 +30,7 @@ package com.codingkapoor
  *	Step3: a
  * 
  */
-object P01 {
+object Bomber {
   
   def iteration(result: List[Char], ls: List[Char]): List[Char] = ls match {
     case Nil                       => Nil
