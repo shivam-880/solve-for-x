@@ -1,7 +1,7 @@
 # Problem Statement
 The puzzle (designed by [GameDesign](http://www.gamedesign.jp/flash/kaeru/kaeru.html)) is to find the way out while hopping through all the tiles.
 
-> *I have attempted to solve this puzzle programmatically using [Backtracking](https://en.wikipedia.org/wiki/Backtracking) algorithm in Java.*
+> *[Backtracking](https://en.wikipedia.org/wiki/Backtracking) algorithm is used to solve this problem in Java.*
 
 ![Kaeru Jump](https://github.com/codingkapoor/solve-for-x/blob/master/java/kaeru-jump/doc/images/kaeru-jump-1.JPG)
 ![Kaeru Jump](https://github.com/codingkapoor/solve-for-x/blob/master/java/kaeru-jump/doc/images/kaeru-jump-2.JPG)
@@ -9,8 +9,10 @@ The puzzle (designed by [GameDesign](http://www.gamedesign.jp/flash/kaeru/kaeru.
 ![Kaeru Jump](https://github.com/codingkapoor/solve-for-x/blob/master/java/kaeru-jump/doc/images/kaeru-jump-4.JPG)
 
 # Documents
-- The [puzzle](https://github.com/codingkapoor/solve-for-x/blob/master/java/kaeru-jump/doc/puzzle.xls) itself.
-- My [analysis](https://github.com/codingkapoor/solve-for-x/blob/master/java/kaeru-jump/doc/analysis.xls) of this problem.
+- [Puzzle](https://github.com/codingkapoor/solve-for-x/blob/master/java/kaeru-jump/doc/puzzle.xls): 
+The puzzle is available as an excel document.
+- [Analysis](https://github.com/codingkapoor/solve-for-x/blob/master/java/kaeru-jump/doc/analysis.xls): 
+I have worked out this problem in sheets in an excel document. It comprises pseudo codes, flowcharts, etc.
 
 # Build package
 ```$ mvn package```
