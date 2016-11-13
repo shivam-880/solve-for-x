@@ -1,5 +1,4 @@
-# Solve for X
-This repository maintains a list of projects that are solutions to common problems pertaining to data structure and algorithms for the purpose of learning in various languages.
+# Problems
 
 ## Table of Content
 - [The Bomber Algorithm](#the-bomber-algorithm)
@@ -44,9 +43,7 @@ The algorithm doesn't like consecutive characters in a given string to be same. 
 ```
 <br/>
 
-### Solutions
--
-- [In Scala](https://github.com/codingkapoor/solve-for-x/blob/master/scala/src/main/scala/com/codingkapoor/P01.scala)
+### [Solution](https://github.com/codingkapoor/solve-for-x/blob/master/scala/src/main/scala/com/codingkapoor/P01.scala)
 
 <br/>
 ## The Big Bang Bomber Algorithm
@@ -85,6 +82,4 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 ```
 
 
-### Solutions
--
-- [In Scala](https://github.com/codingkapoor/solve-for-x/blob/master/scala/src/main/scala/com/codingkapoor/P02.scala)
+### [Solution](https://github.com/codingkapoor/solve-for-x/blob/master/scala/src/main/scala/com/codingkapoor/P02.scala)
