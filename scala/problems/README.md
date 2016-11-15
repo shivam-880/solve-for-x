@@ -43,7 +43,7 @@ The algorithm doesn't like consecutive characters in a given string to be same. 
 ```
 <br/>
 
-### [Solution](https://github.com/codingkapoor/solve-for-x/blob/master/scala/src/main/scala/com/codingkapoor/P01.scala)
+### [Solution](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/Bomber.scala)
 
 <br/>
 ## The Big Bang Bomber Algorithm
@@ -82,4 +82,4 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 ```
 
 
-### [Solution](https://github.com/codingkapoor/solve-for-x/blob/master/scala/src/main/scala/com/codingkapoor/P02.scala)
+### [Solution](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BigBangBomber.scala)
