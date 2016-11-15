@@ -1,4 +1,4 @@
-package com.codingkapoor.model;
+package com.codingkapoor.kaerujump.model;
 
 import java.util.ArrayList;
 

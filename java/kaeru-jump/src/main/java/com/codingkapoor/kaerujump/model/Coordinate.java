@@ -1,4 +1,4 @@
-package com.codingkapoor.model;
+package com.codingkapoor.kaerujump.model;
 
 public class Coordinate implements Cloneable {
 

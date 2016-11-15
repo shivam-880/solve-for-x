@@ -1,4 +1,4 @@
-package com.codingkapoor.util;
+package com.codingkapoor.kaerujump.util;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-import com.codingkapoor.model.Coordinate;
-import com.codingkapoor.model.UserInput;
+import com.codingkapoor.kaerujump.model.Coordinate;
+import com.codingkapoor.kaerujump.model.UserInput;
 
 public class UserInputFileReader {
 

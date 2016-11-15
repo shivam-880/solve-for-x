@@ -1,7 +1,7 @@
-package com.codingkapoor.util;
+package com.codingkapoor.kaerujump.util;
 
-import com.codingkapoor.PossibleDirections;
-import com.codingkapoor.model.Coordinate;
+import com.codingkapoor.kaerujump.PossibleDirections;
+import com.codingkapoor.kaerujump.model.Coordinate;
 
 public class CoordinatesComparator {
 

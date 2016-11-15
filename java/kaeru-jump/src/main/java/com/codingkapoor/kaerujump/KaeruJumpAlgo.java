@@ -1,13 +1,13 @@
-package com.codingkapoor;
+package com.codingkapoor.kaerujump;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Stack;
 
-import com.codingkapoor.model.Coordinate;
-import com.codingkapoor.model.UserInput;
-import com.codingkapoor.util.CoordinatesComparator;
-import com.codingkapoor.util.UserInputFileReader;
+import com.codingkapoor.kaerujump.model.Coordinate;
+import com.codingkapoor.kaerujump.model.UserInput;
+import com.codingkapoor.kaerujump.util.CoordinatesComparator;
+import com.codingkapoor.kaerujump.util.UserInputFileReader;
 
 public class KaeruJumpAlgo {
 
