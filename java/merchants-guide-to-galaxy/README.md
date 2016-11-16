@@ -1,7 +1,7 @@
 # TestCases: 
 A rough description of test cases.
 
-## Input format 1
+## Input Format 1
 ```
 pish : X
 tegj : L
@@ -19,7 +19,7 @@ glob : I
 
 4. If lhs has more than one tokens the input line will be ignored by message format parser.
 
-## Input format 2
+## Input Format 2
 ```
 glob glob Silver is 34 Credits
 glob prok Gold is 57800 Credits
@@ -40,7 +40,7 @@ pish pish Iron is 3910 Credits
 
 5. Check for valid poitive and negative floating point numbers.
 
-## Input format 3
+## Input Format 3
 ```
 how much is pish tegj glob glob ?
 ```
@@ -50,7 +50,7 @@ how much is pish tegj glob glob ?
 2. If the roman number formed out of all these tokens doesn't validates.<br/>
 *Display warning `syntactically wrong`.*
 
-## Input format 4
+## Input Format 4
 ```
 how many Credits is glob prok Silver ?
 how many Credits is glob prok Gold ?
