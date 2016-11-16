@@ -40,12 +40,10 @@ public class Translator {
 						translationsMap.put(strArray[0], strArray[1]);
 						userInputAsListOfStrings.remove(strArray[2]);
 					} else {
-						throw new RuntimeException(MessageFormat
-								.format(outputProperties.getProperty("invalid.translations"), strArray[2]));
+						throw new RuntimeException(MessageFormat.format(outputProperties.getProperty("invalid.translations"), strArray[2]));
 					}
 				} else {
-					throw new RuntimeException(
-							MessageFormat.format(outputProperties.getProperty("invalid.translations"), strArray[2]));
+					throw new RuntimeException(MessageFormat.format(outputProperties.getProperty("invalid.translations"), strArray[2]));
 				}
 			}
 		}
@@ -66,23 +64,18 @@ public class Translator {
 					if (translationsMap.containsKey(nextToken)) {
 						alienNumber += nextToken + " ";
 					} else if (lhs.hasMoreTokens()) {
-						throw new RuntimeException(MessageFormat
-								.format(outputProperties.getProperty("invalid.translations"), strArray[2]));
+						throw new RuntimeException(MessageFormat.format(outputProperties.getProperty("invalid.translations"), strArray[2]));
 					} else {
 						String roman = translateAlienToRomanNumber(alienNumber);
 						if (RomanNumberValidator.validate(roman)) {
-							creditsMap.put(nextToken,
-									(Float.parseFloat(strArray[1]) / RomanToDecimalConvertor.convert(roman)));
+							creditsMap.put(nextToken, (Float.parseFloat(strArray[1]) / RomanToDecimalConvertor.convert(roman)));
 							userInputAsListOfStrings.remove(strArray[2]);
-						} else {
-							throw new RuntimeException(MessageFormat.format(
-									outputProperties.getProperty("syntactically.incorrect"), strArray[2], alienNumber));
-						}
+						} else 
+							throw new RuntimeException(MessageFormat.format(outputProperties.getProperty("syntactically.incorrect"), strArray[2], alienNumber));
 					}
 				}
 			} else {
-				throw new RuntimeException(
-						MessageFormat.format(outputProperties.getProperty("invalid.translations"), strArray[2]));
+				throw new RuntimeException(MessageFormat.format(outputProperties.getProperty("invalid.translations"), strArray[2]));
 			}
 		}
 	}
@@ -107,8 +100,7 @@ public class Translator {
 				if (RomanNumberValidator.validate(roman)) {
 					System.out.println(strArray[1] + " " + RomanToDecimalConvertor.convert(roman));
 				} else {
-					System.out.println(MessageFormat.format(outputProperties.getProperty("syntactically.incorrect"),
-							strArray[1], alienNumber));
+					System.out.println(MessageFormat.format(outputProperties.getProperty("syntactically.incorrect"), strArray[1], alienNumber));
 				}
 			}
 		}
