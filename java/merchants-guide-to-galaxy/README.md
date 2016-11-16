@@ -73,9 +73,10 @@ $ java -cp target/merchants-guide-to-galaxy-1.0-SNAPSHOT.jar com.codingkapoor.me
 
 ***Output***
 
-how much is pish tegj glob glob ? 42
-how many Credits is glob prok Silver ? 68 Credits
-how many Credits is glob prok Gold ? 57,800 Credits
-how many Credits is glob prok Iron ? 782 Credits
-how much wood could a woodchuck chuck if a woodchuck could chuck= wood ? I have no idea what you are talking about.
-hey? I have no idea what you are talking about.
+
+*how much is pish tegj glob glob ? 42*<br/>
+*how many Credits is glob prok Silver ? 68 Credits*<br/>
+*how many Credits is glob prok Gold ? 57,800 Credits*<br/>
+*how many Credits is glob prok Iron ? 782 Credits*<br/>
+*how much wood could a woodchuck chuck if a woodchuck could chuck= wood ? I have no idea what you are talking about.*<br/>
+*hey? I have no idea what you are talking about.*<br/>
