@@ -123,13 +123,18 @@ mvn package
 ```
 
 # Run
+
+## With default input
+```
+$ java -cp target/merchants-guide-to-galaxy-1.0-SNAPSHOT.jar com.codingkapoor.merchantsguidetogalaxy.Translator
+```
+
+## With custom input
 ```
 $ java -cp target/merchants-guide-to-galaxy-1.0-SNAPSHOT.jar com.codingkapoor.merchantsguidetogalaxy.Translator user-input.txt
 ```
 
 ***Output***
-
-
 *how much is pish tegj glob glob ? 42*<br/>
 *how many Credits is glob prok Silver ? 68 Credits*<br/>
 *how many Credits is glob prok Gold ? 57,800 Credits*<br/>
