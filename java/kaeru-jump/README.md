@@ -1,4 +1,4 @@
-# Problem Statement
+# Kaeru Jump
 The puzzle (designed by [GameDesign](http://www.gamedesign.jp/flash/kaeru/kaeru.html)) is to find the way out while hopping through all the tiles.
 
 > *[Backtracking](https://en.wikipedia.org/wiki/Backtracking) algorithm is used to solve this problem in Java.*
