@@ -179,7 +179,9 @@ public class Translator {
 	}
 
 	public void translate() {
-
+		prepareTranslationsMap();
+		prepareCreditsMap();
+		
 		processNonCreditQuestions();
 		processCreditQuestions();
 		processInvalidQuestions();
@@ -193,8 +195,7 @@ public class Translator {
 		inputProperties = new PropertyReader("input.properties");
 		outputProperties = new PropertyReader("output.properties");
 
-		prepareTranslationsMap();
-		prepareCreditsMap();
+
 	}
 
 	public static void main(String[] args) throws IOException, URISyntaxException {
