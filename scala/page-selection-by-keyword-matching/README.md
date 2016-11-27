@@ -55,3 +55,38 @@ Q4: P3 P1 P2
 Q5: P1 P3 P6 P2 P4
 Q6:
 ```
+
+# Build Package
+- To create normal JAR.
+  ```
+  sbt package
+  ```
+  
+- To create FAT JAR.
+  ```
+  sbt assembly
+  ```
+
+# Run
+
+## With default input
+- To run as a FAT JAR.
+  ```
+  $ java -cp target/scala-2.11/page-selection-by-keyword-matching-assembly-1.0.jar com.codingkapoor.pageselectionbykeyword.PageSelector
+  ```
+
+- To run as a SBT project.
+  ```
+  sbt run
+  ```
+
+## With custom input
+- To run as a FAT JAR.
+  ```
+  $ java -cp target/scala-2.11/page-selection-by-keyword-matching-assembly-1.0.jar com.codingkapoor.pageselectionbykeyword.PageSelector input.txt
+  ```
+
+- To run as a SBT project.
+  ```
+  $ sbt "run-main com.codingkapoor.pageselectionbykeyword.PageSelector input.txt"
+  ```
