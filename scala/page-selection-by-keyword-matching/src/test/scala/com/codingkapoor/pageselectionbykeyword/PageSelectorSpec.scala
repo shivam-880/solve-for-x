@@ -9,7 +9,7 @@ class PageSelectorSpec extends fixture.FlatSpec with Matchers {
   case class FixtureParam(file: File, writer: FileWriter)
 
   def withFixture(test: OneArgTest): Outcome = {
-    val file = File.createTempFile("test", ".txt")
+    val file = File.createTempFile("test", "txt")
     val writer = new FileWriter(file)
 
     val theFixture = FixtureParam(file, writer)
