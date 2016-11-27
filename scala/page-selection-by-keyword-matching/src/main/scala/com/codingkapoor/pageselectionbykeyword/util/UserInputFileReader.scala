@@ -15,7 +15,7 @@ class UserInputFileReader(fileName: Option[String]) {
   // 2. If a line representing page or query has at least one keyword
   private def validateInput(lines: List[String]) = {
     lines.map { _.trim().replaceAll("\\s+", " ") }.
-      filter { i => i.startsWith(UserInputFileReader.pageIdentifier) || i.startsWith(UserInputFileReader.queryIdentifier) }.
+      filter { i => i.startsWith(Page.identifier) || i.startsWith(Query.identifier) }.
       filter { _.length() != 1 }
   }
 
@@ -43,7 +43,7 @@ class UserInputFileReader(fileName: Option[String]) {
     val lines = scala.io.Source.fromInputStream(stream).getLines
 
     // Partitions list of lines into a tuple of list of lines representing pages and queries, respectively
-    val (pages, queries) = validateInput(lines.toList).partition { _.startsWith(UserInputFileReader.pageIdentifier) }
+    val (pages, queries) = validateInput(lines.toList).partition { _.startsWith(Page.identifier) }
 
     (prepareQueryList(processInput(queries)), preparePageList(processInput(pages)))
   }
@@ -53,9 +53,6 @@ class UserInputFileReader(fileName: Option[String]) {
 object UserInputFileReader {
   private final val totalKeywordsAllowed = 8
   private final val defaultUserInputFile = "/input.txt"
-
-  private final val pageIdentifier = "P"
-  private final val queryIdentifier = "Q"
 
   def apply(fileName: Option[String]): UserInputFileReader = new UserInputFileReader(fileName)
 }

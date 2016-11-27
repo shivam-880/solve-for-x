@@ -26,7 +26,7 @@ class PageSelector(fileName: Option[String]) {
     }
 
     for { r <- i } yield {
-      "Q" + r._1 + ":" + (r._2 foldLeft ("")) { (acc, x) => acc + " " + "P" + x }
+      Query.identifier + r._1 + ":" + (r._2 foldLeft ("")) { (acc, x) => acc + " " + Page.identifier + x }
     }
   }
 
