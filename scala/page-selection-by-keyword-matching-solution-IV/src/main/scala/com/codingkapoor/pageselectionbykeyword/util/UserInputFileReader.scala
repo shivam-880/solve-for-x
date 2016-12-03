@@ -24,7 +24,7 @@ trait UserInputFileReader {
   def keywords(v: String): List[(String, Int)]
 
   // Takes a tree of form: List((P Ford Car,List((PP Review Car,List()), (PP Review Ford,List()))), (P Toyota Car,List((PP Car,List())))) and
-  // prepares a list of pages: List(Page(0.1,List(Page(0.1.1,List()), Page(0.1.2,List()))), Page(0.2,List(Page(0.2.1,List())))) where "0" is the index of root of all pages
+  // prepares a list of pages: List(Page(0.1,List((ford,8), (car,7)),List(Page(0.1.1,List((review,8), (car,7)),List()), Page(0.1.2,List((review,8), (ford,7)),List()))), Page(0.2,List((toyota,8), (car,7)),List(Page(0.2.1,List((car,8)),List())))) where "0" is the index of root of all pages
   def convertPageTreeToPageList(tree: Any): List[Page] = {
 
     def convert(index: String, tree: Any): List[Page] = tree match {
