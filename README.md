@@ -10,8 +10,8 @@ This repository maintains a list of projects that are solutions to common proble
 | 3. | [The Bomber Algorithm: III](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberIII.scala) | 2016-11-08 | Scala |
 | 4. | [Kaeru Jump](https://github.com/codingkapoor/solve-for-x/tree/master/java/kaeru-jump) | 2016-11-13 | Java |
 | 5. | [Merchant's Guide to Galaxy](https://github.com/codingkapoor/solve-for-x/tree/master/java/merchants-guide-to-galaxy) | 2016-11-17 | Java |
-| 6. | [Page Selection By Keyword Matching: Part I](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-solution-III) | 2016-11-27 | Scala |
-| 7. | [Page Selection By Keyword Matching: Part II](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-solution-IV) | 2016-12-03 | Scala |
+| 6. | [Page Selection By Keyword Matching: Part I](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-I-Y) | 2016-11-27 | Scala |
+| 7. | [Page Selection By Keyword Matching: Part II](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-II-X) | 2016-12-05 | Scala |
 
 # Todo
 - [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
