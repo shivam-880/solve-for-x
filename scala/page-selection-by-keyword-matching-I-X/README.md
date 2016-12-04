@@ -56,14 +56,6 @@ Q5: P1 P3 P6 P2 P4
 Q6:
 ```
 
-# Design Considerations
-- Page and Query are modeled as case classes with "id" and list of "keywords" as tuple of a keyword and it's weight.
-- SimpleUserInputFileReader is a trait that knows to parse input file in a particular format and return a list of Query & Page objects.  
-- SimpleUserInputFileReader is designed as a trait so that PageSelector algorithm can mixin a different UserInputFileReader trait that may know to parse input file in a different format.
-- SimpleUserInputFileReader processes a default input file present under resources directory if no file is supplied.
-- SimplePageSelector is designed as a trait so that it can be substituted with a more sophisticated PageSelector.
-- Test cases are BDD oriented and are pretty self descriptive.
-
 # Build Package
 
 - To create FAT JAR.
