@@ -1,9 +1,9 @@
 # Problems
 
 ## Table of Content
-- [The Bomber Algorithm ~ Problem I](#the-bomber-algorithm-~-Problem-I)
-- [The Bomber Algorithm ~ Problem II](#the-bomber-algorithm-~-Problem-II)
-- [The Bomber Algorithm ~ Problem III](#the-bomber-algorithm-~-Problem-III)
+- [The Bomber Algorithm ~ Problem I](#the-bomber-algorithm--problem-i)
+- [The Bomber Algorithm ~ Problem II](#the-bomber-algorithm--problem-ii)
+- [The Bomber Algorithm ~ Problem III](#the-bomber-algorithm--problem-iii)
 
 ## The Bomber Algorithm ~ [Problem I](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberI.scala)
 The algorithm doesn't like consecutive characters in a given string to be same. For example, if the given string is "abcccbd", the bomber algorithm first bombs "ccc" and then "bb". So the final output string will become "ad". It destroys the characters only if there are more than 1 continous occurence of same characters in the string.
