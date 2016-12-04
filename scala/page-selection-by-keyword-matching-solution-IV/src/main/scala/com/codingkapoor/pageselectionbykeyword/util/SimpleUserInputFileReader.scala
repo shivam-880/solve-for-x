@@ -8,13 +8,30 @@ import com.codingkapoor.pageselectionbykeyword.model.Query
 
 trait SimpleUserInputFileReader extends UserInputFileReader {
 
+  override def prepareInput(lines: List[String]): List[String] = {
+    lines.map { _.trim().replaceAll("\\s+", " ") }
+  }
+
+  // Gets rid of all the dangling references
+  // Input: List("P", "PP", "PPPPP", "PPPPPP", "PPPPP", "PPPP", "PPPPP", "PP")
+  // Output: List("P", "PP", "PP")
+  override def ridDanglingPages(lines: List[String]): List[String] = {
+    (lines.tail foldLeft List(lines.head)) {
+      case (acc, x) if (x.split(" ").head.size > acc.head.split(" ").head.size + 1) => acc
+      case (acc, x) => acc :+ x
+    }
+  }
+
   // Validates:
   // 1. If a line starts with "P" or "Q"  
   // 2. If a line representing page or query has at least one keyword
+  // 3. If there are no dangling references
   override def validateInput(lines: List[String]): List[String] = {
-    lines.map { _.trim().replaceAll("\\s+", " ") }.
+    val res = lines.
       filter { i => i.startsWith(Page.identifier) || i.startsWith(Query.identifier) }.
       filter { _.length() != 1 }
+
+    ridDanglingPages(res)
   }
 
   // Takes a list of lines as parameter List("P Ford Car", "PP Review Car", "PP Review Ford", "P Toyota Car", "PP Car") and
@@ -37,7 +54,7 @@ trait SimpleUserInputFileReader extends UserInputFileReader {
   // 1. Ignores keywords that are beyond 8 in number
   // 2. Makes all the keywords as lower case 
   override def buildPageList(ls: List[String]): List[Page] = {
-    
+
     val tree = buildPageTree(ls)
     convertPageTreeToPageList(tree)
   }
@@ -64,7 +81,7 @@ trait SimpleUserInputFileReader extends UserInputFileReader {
     val lines = scala.io.Source.fromInputStream(stream).getLines
 
     // Partitions list of lines into a tuple of list of lines representing pages and queries, respectively
-    val (pages, queries) = validateInput(lines.toList).partition { _.startsWith(Page.identifier) }
+    val (pages, queries) = validateInput(prepareInput(lines.toList)).partition { _.startsWith(Page.identifier) }
 
     (prepareQueryList(queries), buildPageList(pages))
   }

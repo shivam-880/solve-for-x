@@ -4,19 +4,21 @@ import com.codingkapoor.pageselectionbykeyword.model.Page
 import com.codingkapoor.pageselectionbykeyword.model.Query
 
 trait UserInputFileReader {
-
+  
   final val totalKeywordsAllowed = 8
   final val defaultUserInputFile = "/input.txt"
 
   final val indexOfRootOfAllPages = "0"
   final val indexOfNewSubPage = "1"
 
-  def readUserInputFile(fileName: Option[String]): (List[Query], List[Page])
+  def prepareInput(lines: List[String]): List[String]
+
+  def ridDanglingPages(lines: List[String]): List[String]
 
   def validateInput(lines: List[String]): List[String]
 
   def buildPageList(ls: List[String]): List[Page]
-  
+
   def prepareQueryList(ls: List[String]): List[Query]
 
   def buildPageTree(ls: List[String]): List[(String, List[_])]
@@ -43,4 +45,6 @@ trait UserInputFileReader {
     val indexOfFirstPage = indexOfRootOfAllPages + "." + indexOfNewSubPage
     convert(indexOfFirstPage, tree)
   }
+
+  def readUserInputFile(fileName: Option[String]): (List[Query], List[Page])
 }
