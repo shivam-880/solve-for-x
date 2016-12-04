@@ -12,7 +12,7 @@ trait SimpleUserInputFileReader extends UserInputFileReader {
     lines.map { _.trim().replaceAll("\\s+", " ") }
   }
 
-  // Gets rid of all the dangling references
+  // Gets rid of all dangling pages i.e., pages that don't have any parent
   // Input: List("P", "PP", "PPPPP", "PPPPPP", "PPPPP", "PPPP", "PPPPP", "PP")
   // Output: List("P", "PP", "PP")
   override def ridDanglingPages(lines: List[String]): List[String] = {
