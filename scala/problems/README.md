@@ -1,7 +1,9 @@
 # Problems
 
 ## The Bomber Algorithm ~ [Problem I](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberI.scala)
-The algorithm doesn't like consecutive characters in a given string to be same. For example, if the given string is "abcccbd", the bomber algorithm first bombs "ccc" and then "bb". So the final output string will become "ad". It destroys the characters only if there are more than 1 continous occurence of same characters in the string.
+The algorithm doesn't like consecutive characters in a given string to be same. 
+
+For example, if the given string is "abcccbd", the bomber algorithm first bombs "ccc" and then "bb". So the final output string will become "ad". It destroys the characters only if there are more than 1 continous occurence of same characters in the string.
 
 *[Don't use RegEx]*
 
@@ -40,7 +42,9 @@ The algorithm doesn't like consecutive characters in a given string to be same. 
 <br/>
 
 ## The Bomber Algorithm ~ [Problem II](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberII.scala)
-The algorithm doesn't like more than two consecutive characters in a given string to be same. For example, if the given string is "abcccbd", the bomber algorithm first bombs "ccc" to get to "abbd".
+The algorithm doesn't like more than two consecutive characters in a given string to be same. 
+
+For example, if the given string is "abcccbd", the bomber algorithm first bombs "ccc" to get to "abbd".
 
 *[Don't use RegEx]*
 
