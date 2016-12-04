@@ -36,7 +36,7 @@ trait SimplePageSelector extends PageSelector {
 
   }
 
-  override def pageSelectionAlgo(fileName: Option[String]) = {
+  override def pageSelectionAlgo(fileName: Option[String]): List[(String, List[String])] = {
 
     val (queries, pages) = readUserInputFile(fileName)
 
