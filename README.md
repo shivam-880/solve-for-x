@@ -15,3 +15,4 @@ This repository maintains a list of projects that are solutions to common proble
 
 # Todo
 - [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
+- [Even Tree](https://www.hackerrank.com/challenges/even-tree)
