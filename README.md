@@ -1,4 +1,4 @@
-# Solve-for-x
+# Solve For X
 This repository maintains a list of projects that are solutions to common problems pertaining to data structure and algorithms for the purpose of learning in various languages.
 
 # Solution Log
@@ -12,6 +12,13 @@ This repository maintains a list of projects that are solutions to common proble
 | 5. | [Merchant's Guide to Galaxy](https://github.com/codingkapoor/solve-for-x/tree/master/java/merchants-guide-to-galaxy) | 2016-11-17 | Java |
 | 6. | [Page Selection By Keyword Matching: Part I](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-I-Y) | 2016-11-27 | Scala |
 | 7. | [Page Selection By Keyword Matching: Part II](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-II-X) | 2016-12-05 | Scala |
+
+# Other Repositories
+
+|S.No.|Repository|Description|Language|
+|:----|:---------|:----------|:-----------|
+|1.|[99-scala-problems](https://github.com/codingkapoor/99-scala-problems)|Solutions and tests for Phil Gold's S-99: Ninety-Nine Scala Problems|Scala|
+|2.|[scala-coding-bat](https://github.com/codingkapoor/scala-coding-bat)|Programming exercises on [codingbat](http://codingbat.com/)|Scala|
 
 # Todo
 - [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
