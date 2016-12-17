@@ -13,7 +13,7 @@ This repository maintains a list of projects that are solutions to common proble
 | 6. | [Page Selection By Keyword Matching: Part I](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-I-Y) | 2016-11-27 | Scala |
 | 7. | [Page Selection By Keyword Matching: Part II](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-II-X) | 2016-12-05 | Scala |
 
-# Other Repositories
+# Other
 
 |S.No.|Repository|Description|Language|
 |:----|:---------|:----------|:-----------|
