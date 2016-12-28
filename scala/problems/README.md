@@ -110,13 +110,14 @@ The objective is to write a program to move from the first 'S' to the end of the
 
 A rather GREEDY ALGORITHMIC approach would be as described below; which won't return correct result for variety of input strings.
 
-For sequence, 'SSUSSUSUUS', the steps would be:<br/>
-- Program starts at the left-most end with initial position 1 of S with jump-size of 1.
-- Program finds that the next block is a S and so does not increase the jump-size and traverses to position 2.
-- Program finds that the next block is a U and so increases the jump-size to 2 and moves to position 4.
-- Program finds that with jump-size of 2 the block in position 6 is unsafe. So it decreases the jump-size to 1 and traverses to position 5.
-- Program finds that block in position 6 is unsafe and so increases the jump-size to 2 and traverses to position 7.
-- Program finds that block in position 9 is unsafe, also finds that block in position 8 is unsafe (so decreasing jump-size will not help), so increases the jump-size to 3 and traverses to position 10. Since we have hit the end of array the program returns saying safe-traversal-possible for the given sequence.
+For sequence, 'SSUSSUSUUS', the steps would be:
+
+1. Program starts at the left-most end with initial position 1 of S with jump-size of 1.
+2. Program finds that the next block is a S and so does not increase the jump-size and traverses to position 2.
+3. Program finds that the next block is a U and so increases the jump-size to 2 and moves to position 4.
+4.  Program finds that with jump-size of 2 the block in position 6 is unsafe. So it decreases the jump-size to 1 and traverses to position 5.
+5. Program finds that block in position 6 is unsafe and so increases the jump-size to 2 and traverses to position 7.
+6. Program finds that block in position 9 is unsafe, also finds that block in position 8 is unsafe (so decreasing jump-size will not help), so increases the jump-size to 3 and traverses to position 10. Since we have hit the end of array the program returns saying safe-traversal-possible for the given sequence.
 
 ### Solution
 This problem however can be solved using DYNAMIC PROGRAMMING approach using MEMOIZATION in O(n^2) polynomial time complexity.
