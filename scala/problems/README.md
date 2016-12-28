@@ -1,5 +1,5 @@
 # Problems
-- This project aims to solve data structures and agorithmic problems in Scala.
+This project aims to solve data structures and agorithmic problems in Scala.
 
 ## Table of Content
 - [The Bomber Algorithm: I](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm-i)
