@@ -1,5 +1,11 @@
 # Problems
 
+## Table of Content
+- [The Bomber Algorithm ~ Problem I](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--problem-i)
+- [The Bomber Algorithm ~ Problem II](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--problem-ii)
+- [The Bomber Algorithm ~ Problem III](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--problem-iii)
+- [Safe Traversal]()
+
 ## The Bomber Algorithm ~ [Problem I](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberI.scala)
 The algorithm doesn't like consecutive characters in a given string to be same. 
 
