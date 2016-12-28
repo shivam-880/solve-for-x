@@ -26,7 +26,7 @@ A number written in Arabic numerals can be broken into digits. For example, 1903
 
 **Note:** Input to your program consists of lines of text detailing your notes on the conversion between intergalactic units and roman numerals. You are expected to handle invalid queries appropriately.
 
-## Test Input:
+## Sample Input:
 
 *glob is I*<br/>
 *prok is V*<br/>
@@ -41,18 +41,19 @@ A number written in Arabic numerals can be broken into digits. For example, 1903
 *how many Credits is glob prok Iron ?*<br/>
 *how much wood could a woodchuck chuck if a woodchuck could chuck wood ?*<br/>
 
-## Test Output:
+## Sample Output:
 
-*pish tegj glob glob is 42*<br/>
-*glob prok Silver is 68 Credits*<br/>
-*glob prok Gold is 57800 Credits*<br/>
-*glob prok Iron is 782 Credits*<br/>
-*I have no idea what you are talking about*<br/>
+*how much is pish tegj glob glob ? 42*<br/>
+*how many Credits is glob prok Silver ? 68 Credits*<br/>
+*how many Credits is glob prok Gold ? 57,800 Credits*<br/>
+*how many Credits is glob prok Iron ? 782 Credits*<br/>
+*how much wood could a woodchuck chuck if a woodchuck could chuck= wood ? I have no idea what you are talking about.*<br/>
+*hey? I have no idea what you are talking about.*<br/>
 
 # TestCases: 
 A rough description of test cases.
 
-## Input Format 1
+## Input Format I
 ```
 pish : X
 tegj : L
@@ -70,7 +71,7 @@ glob : I
 
 4. If lhs has more than one tokens the input line will be ignored by message format parser.
 
-## Input Format 2
+## Input Format II
 ```
 glob glob Silver is 34 Credits
 glob prok Gold is 57800 Credits
@@ -91,7 +92,7 @@ pish pish Iron is 3910 Credits
 
 5. Check for valid poitive and negative floating point numbers.
 
-## Input Format 3
+## Input Format III
 ```
 how much is pish tegj glob glob ?
 ```
@@ -101,7 +102,7 @@ how much is pish tegj glob glob ?
 2. If the roman number formed out of all these tokens doesn't validates.<br/>
 *Display warning `syntactically wrong`.*
 
-## Input Format 4
+## Input Format IV
 ```
 how many Credits is glob prok Silver ?
 how many Credits is glob prok Gold ?
@@ -133,11 +134,3 @@ $ java -cp target/merchants-guide-to-galaxy-1.0-SNAPSHOT.jar com.codingkapoor.me
 ```
 $ java -cp target/merchants-guide-to-galaxy-1.0-SNAPSHOT.jar com.codingkapoor.merchantsguidetogalaxy.Translator user-input.txt
 ```
-
-***Output***<br/>
-*how much is pish tegj glob glob ? 42*<br/>
-*how many Credits is glob prok Silver ? 68 Credits*<br/>
-*how many Credits is glob prok Gold ? 57,800 Credits*<br/>
-*how many Credits is glob prok Iron ? 782 Credits*<br/>
-*how much wood could a woodchuck chuck if a woodchuck could chuck= wood ? I have no idea what you are talking about.*<br/>
-*hey? I have no idea what you are talking about.*<br/>
