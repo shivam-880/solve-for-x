@@ -27,29 +27,29 @@ A number written in Arabic numerals can be broken into digits. For example, 1903
 **Note:** Input to your program consists of lines of text detailing your notes on the conversion between intergalactic units and roman numerals. You are expected to handle invalid queries appropriately.
 
 ## Sample Input:
-
-*glob is I*<br/>
-*prok is V*<br/>
-*pish is X*<br/>
-*tegj is L*<br/>
-*glob glob Silver is 34 Credits*<br/>
-*glob prok Gold is 57800 Credits*<br/>
-*pish pish Iron is 3910 Credits*<br/>
-*how much is pish tegj glob glob ?*<br/>
-*how many Credits is glob prok Silver ?*<br/>
-*how many Credits is glob prok Gold ?*<br/>
-*how many Credits is glob prok Iron ?*<br/>
-*how much wood could a woodchuck chuck if a woodchuck could chuck wood ?*<br/>
-
+```
+glob is I<br/>
+prok is V<br/>
+pish is X<br/>
+tegj is L<br/>
+glob glob Silver is 34 Credits<br/>
+glob prok Gold is 57800 Credits<br/>
+pish pish Iron is 3910 Credits<br/>
+how much is pish tegj glob glob ?<br/>
+how many Credits is glob prok Silver ?<br/>
+how many Credits is glob prok Gold ?<br/>
+how many Credits is glob prok Iron ?<br/>
+how much wood could a woodchuck chuck if a woodchuck could chuck wood ?<br/>
+```
 ## Sample Output:
-
-*how much is pish tegj glob glob ? 42*<br/>
-*how many Credits is glob prok Silver ? 68 Credits*<br/>
-*how many Credits is glob prok Gold ? 57,800 Credits*<br/>
-*how many Credits is glob prok Iron ? 782 Credits*<br/>
-*how much wood could a woodchuck chuck if a woodchuck could chuck= wood ? I have no idea what you are talking about.*<br/>
-*hey? I have no idea what you are talking about.*<br/>
-
+```
+how much is pish tegj glob glob ? 42<br/>
+how many Credits is glob prok Silver ? 68 Credits<br/>
+how many Credits is glob prok Gold ? 57,800 Credits<br/>
+how many Credits is glob prok Iron ? 782 Credits<br/>
+how much wood could a woodchuck chuck if a woodchuck could chuck= wood ? I have no idea what you are talking about.<br/>
+hey? I have no idea what you are talking about.<br/>
+```
 # TestCases: 
 A rough description of test cases.
 
