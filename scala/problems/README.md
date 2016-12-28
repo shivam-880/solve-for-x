@@ -132,5 +132,5 @@ $ sbt run
 #### With custom input
 
 ```
-$ sbt "run-main com.codingkapoor.glassbeamproblemsolving.SafeTraversal SSSSS"
+$ sbt "run-main com.codingkapoor.problemsolving.SafeTraversal SSSSS"
 ```
