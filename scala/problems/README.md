@@ -1,12 +1,13 @@
 # Problems
+- This project aims to solve data structures and agorithmic problems in Scala.
 
 ## Table of Content
-- [The Bomber Algorithm ~ Problem I](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--problem-i)
-- [The Bomber Algorithm ~ Problem II](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--problem-ii)
-- [The Bomber Algorithm ~ Problem III](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--problem-iii)
+- [The Bomber Algorithm ~ I](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--i)
+- [The Bomber Algorithm ~ II](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--ii)
+- [The Bomber Algorithm ~ III](https://github.com/codingkapoor/solve-for-x/tree/master/scala/problems#the-bomber-algorithm--iii)
 - [Safe Traversal]()
 
-## The Bomber Algorithm ~ [Problem I](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberI.scala)
+## The Bomber Algorithm ~ [I](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberI.scala)
 The algorithm doesn't like consecutive characters in a given string to be same. 
 
 For example, if the given string is "abcccbd", the bomber algorithm first bombs "ccc" and then "bb". So the final output string will become "ad". It destroys the characters only if there are more than 1 continous occurence of same characters in the string.
@@ -47,7 +48,7 @@ For example, if the given string is "abcccbd", the bomber algorithm first bombs 
 ```
 <br/>
 
-## The Bomber Algorithm ~ [Problem II](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberII.scala)
+## The Bomber Algorithm ~ [II](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberII.scala)
 The algorithm doesn't like more than two consecutive characters in a given string to be same. 
 
 For example, if the given string is "abcccbd", the bomber algorithm first bombs "ccc" to get to "abbd".
@@ -66,7 +67,7 @@ For example, if the given string is "abcccbd", the bomber algorithm first bombs 
 ```
 
 <br/>
-## The Bomber Algorithm ~ [Problem III](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberIII.scala)
+## The Bomber Algorithm ~ [III](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/BomberIII.scala)
 This algorithm is a variant of the bomber algorithm. It bombs all the consecutive characters which are similar in a single iteration.
 
 *[Don't use RegEx]*
@@ -100,3 +101,5 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 ```
 	Step1: aaa
 ```
+
+## [Safe Traversal]()
