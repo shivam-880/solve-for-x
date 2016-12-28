@@ -1,4 +1,4 @@
-package com.codingkapoor
+package com.codingkapoor.problemsolving
 
 /**
  * 
