@@ -2,7 +2,7 @@ package com.codingkapoor.problemsolving;
 
 public class PointInTriangle {
 
-	private class Point {
+	public class Point {
 
 		private int x;
 		private int y;
@@ -22,8 +22,8 @@ public class PointInTriangle {
 
 	}
 
-	private void isValidTriangle(Point[] triangle) throws Exception {
-		
+	public void isValidTriangle(Point[] triangle) throws Exception {
+
 		if (triangle.length > 3 || triangle.length < 3) {
 			throw new Exception("Invalid triangle.");
 		}
@@ -44,6 +44,8 @@ public class PointInTriangle {
 
 	private double area(Point[] triangle) {
 
+		// Area=|(x1(y2−y3) + x2(y3−y1) + x3(y1−y2))/2|
+
 		double a = triangle[0].getX() * (triangle[1].getY() - triangle[2].getY())
 				+ triangle[1].getX() * (triangle[2].getY() - triangle[0].getY())
 				+ triangle[2].getX() * (triangle[0].getY() - triangle[1].getY());
@@ -51,7 +53,7 @@ public class PointInTriangle {
 		return Math.abs(a / 2);
 	}
 
-	private boolean find(Point[] triangle, Point point) throws Exception {
+	public boolean find(Point[] triangle, Point point) throws Exception {
 
 		isValidTriangle(triangle);
 
