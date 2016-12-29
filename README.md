@@ -14,6 +14,7 @@ This repository maintains a list of projects that are solutions to common proble
 | 7. | [Page Selection By Keyword Matching: Part II](https://github.com/codingkapoor/solve-for-x/tree/master/scala/page-selection-by-keyword-matching-II-X) | 2016-12-05 | Scala |
 | 8. | [Safe Traversal](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/README.md#safe-traversal) | 2016-12-28 | Scala |
 | 9. | [Spiral Matix](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/README.md#spiral-matrix) | 2016-12-29 | Java |
+| 10. | [Point In Triangle](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/README.md#point-in-triangle) | 2016-12-29 | Java |
 
 # Other
 
