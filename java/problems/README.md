@@ -3,6 +3,7 @@ This project aims to solve data structures and agorithmic problems in Java.
 
 ## Table of Content
 - [Spiral Matrix](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/README.md#spiral-matrix)
+- [Point In Triangle]()
 
 ## [Spiral Matrix](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/src/main/java/com/codingkapoor/problemsolving/SpiralMatrix.java)
 
@@ -75,3 +76,6 @@ WAP to loop over the array in the order of written numbers (like a spiral) and p
 19 
 20 
 ```
+
+## [Point In Triangle](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/src/main/java/com/codingkapoor/problemsolving/PointInTriangle.java)
+WAP to determine whether a given point lies within a triangle or not.
