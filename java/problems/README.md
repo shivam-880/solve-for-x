@@ -3,7 +3,7 @@ This project aims to solve data structures and agorithmic problems in Java.
 
 ## Table of Content
 - [Spiral Matrix](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/README.md#spiral-matrix)
-- [Point In Triangle]()
+- [Point In Triangle](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/README.md#point-in-triangle)
 
 ## [Spiral Matrix](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/src/main/java/com/codingkapoor/problemsolving/SpiralMatrix.java)
 
