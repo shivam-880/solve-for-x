@@ -77,5 +77,15 @@ WAP to loop over the array in the order of written numbers (like a spiral) and p
 20 
 ```
 
+### Run 
+```
+$ mvn exec:java -D exec.mainClass=com.codingkapoor.problemsolving.SpiralMatrix
+```
+
 ## [Point In Triangle](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/src/main/java/com/codingkapoor/problemsolving/PointInTriangle.java)
 WAP to determine whether a given point lies within a triangle or not.
+
+### Run
+```
+$ mvn exec:java -D exec.mainClass=com.codingkapoor.problemsolving.PointInTriangle
+```
