@@ -15,7 +15,7 @@ This repository maintains a list of projects that are solutions to common proble
 | 8. | [Safe Traversal](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/README.md#safe-traversal) | 2016-12-28 | Scala |
 | 9. | [Spiral Matix](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/README.md#spiral-matrix) | 2016-12-29 | Java |
 | 10. | [Point In Triangle](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/README.md#point-in-triangle) | 2016-12-29 | Java |
-| 11. | [Cycle Detection in an Undirected Graph](https://github.com/codingkapoor/solve-for-x/blob/master/java/problems/README.md#point-in-triangle) | 2021-03-02 | Scala |
+| 11. | [Cycle Detection in an Undirected Graph](https://github.com/iamsmkr/graph-algos) | 2021-03-02 | Scala |
 
 # Other
 
