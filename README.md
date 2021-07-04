@@ -22,7 +22,8 @@ This repository maintains a list of projects that are solutions to common proble
 |S.No.|Repository|Description|Language|
 |:----|:---------|:----------|:-----------|
 |1.|[99-scala-problems](https://github.com/codingkapoor/99-scala-problems)|Solutions and tests for Phil Gold's S-99: Ninety-Nine Scala Problems|Scala|
-|2.|[scala-coding-bat](https://github.com/codingkapoor/scala-coding-bat)|Programming exercises on [codingbat](http://codingbat.com/)|Scala|
+|2.|[scala-coding-bat](https://github.com/codingkapoor/scala-coding-bat)|Programming exercises on [Codingbat](http://codingbat.com/)|Scala|
+|3.|[codility-scala](https://github.com/iamsmkr/codility-scala)|Programming lessons from [Codility](https://app.codility.com/programmers)|Scala|
 
 # Todo
 - [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
