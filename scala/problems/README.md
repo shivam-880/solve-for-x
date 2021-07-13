@@ -14,7 +14,7 @@ For example, if the given string is "abcccbd", the bomber algorithm first bombs 
 
 *[Don't use RegEx]*
 
-###Examples
+### Examples
 -
 
 **Input 1**: aabcccdee
