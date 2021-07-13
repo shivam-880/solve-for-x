@@ -67,7 +67,8 @@ For example, if the given string is "abcccbd", the bomber algorithm first bombs 
 ```
 
 <br/>
-## [The Bomber Algorithm: III](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/problemsolving/BomberIII.scala)
+
+##  [The Bomber Algorithm: III](https://github.com/codingkapoor/solve-for-x/blob/master/scala/problems/src/main/scala/com/codingkapoor/problemsolving/BomberIII.scala)
 This algorithm is a variant of the bomber algorithm. It bombs all the consecutive characters which are similar in a single iteration.
 
 *[Don't use RegEx]*
