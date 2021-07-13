@@ -55,7 +55,7 @@ For example, if the given string is "abcccbd", the bomber algorithm first bombs 
 
 *[Don't use RegEx]*
 
-###Examples
+### Examples
 -
 
 **Input**: adbcccbbd
@@ -72,7 +72,7 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 
 *[Don't use RegEx]*
 
-###Examples
+### Examples
 -
 
 **Input 1**: aabcccdee
