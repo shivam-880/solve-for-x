@@ -15,20 +15,20 @@ For example, if the given string is "abcccbd", the bomber algorithm first bombs 
 *[Don't use RegEx]*
 
 ### Examples
--
 
-**Input 1**: aabcccdee
+**Input 1** : aabcccdee
 
-**Output 1**: bd
+**Output 1** : bd
 ```
 	Step1: bcccdee
 	Step2: bdee
 	Step3: bd
 ```
 <br/>
-**Input 2**: abcdeedcbfgf
 
-**Output 2**: afgf
+**Input 2** : abcdeedcbfgf
+
+**Output 2** : afgf
 
 ```
 	Step1: abcddcbfgf
@@ -37,9 +37,10 @@ For example, if the given string is "abcccbd", the bomber algorithm first bombs 
 	Step4: afgf
 ```
 <br/>
-**Input 3**: abbabba
 
-**Output 3**: a
+**Input 3** : abbabba
+
+**Output 3** : a
 
 ```
 	Step1: aabba
@@ -56,11 +57,10 @@ For example, if the given string is "abcccbd", the bomber algorithm first bombs 
 *[Don't use RegEx]*
 
 ### Examples
--
 
-**Input**: adbcccbbd
+**Input** : adbcccbbd
 
-**Output**: add
+**Output** : add
 ```
 	Step1: adbbbd
 	Step2: add
@@ -74,19 +74,19 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 *[Don't use RegEx]*
 
 ### Examples
--
 
-**Input 1**: aabcccdee
+**Input 1** : aabcccdee
 
-**Output 1**: bd
+**Output 1** : bd
 
 ```
 	Step1: bd
 ```
 <br/>
-**Input 2**: abcdeedcbfgf
 
-**Output 2**: afgf
+**Input 2** : abcdeedcbfgf
+
+**Output 2** : afgf
 
 ```
 	Step1: abcddcbfgf
@@ -94,10 +94,12 @@ This algorithm is a variant of the bomber algorithm. It bombs all the consecutiv
 	Step3: abbfgf
 	Step4: afgf
 ```
-<br/>
-**Input 3**: abbabba
 
-**Output 3**: Empty String
+<br/>
+
+**Input 3** : abbabba
+
+**Output 3** : Empty String
 
 ```
 	Step1: aaa
